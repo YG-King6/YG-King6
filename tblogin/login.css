@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #6C6C6C;
+}
+.toper{
+    margin: 0 auto;
+    width: 1210px;
+    height: 90px;
+    margin: 0 auto;
+}
+.img{
+    width: 365px;
+    vertical-align: middle;
+    margin-top: 20px;
+    float: left;
+}
+.toper-right{
+    height: 90px;
+    width:1000px ;
+    float: left;
+    margin-left: -160px;
+}
+.toper-right-top{
+    width: 900px;
+    height: 28px;
+    margin-top: 22px;
+    background-color: #FEF2F2;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #FFB4A8;
+    color: #6C6C6C;
+    margin-right: 2px;
+}
+.toper-right-login{
+    float: right;
+    margin-top: 10px;
+}
+.toper-right-login img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.toper-right-login a:hover{
+    color: #FF4400;
+}
+.bodyer{
+    height: 600px;
+    background-image: url(./image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    margin-top: -3px;
+    position: relative;
+}
+.body{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.login{
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    left: 850px;
+    top: 120px;
+    background-color: #FFFFFF;
+}
+
+.login p{
+    
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.login .mmdl{
+    font-weight: bold;
+    font-size: 16px;
+}
+.login .login-text{
+    border: 1px solid #ccc;
+    width:0 auto;
+    width: 292px;
+    height: 38px;
+    margin-top: 24px;
+}
+.login .login-text input{
+    padding-left: 50px;
+    width: 240px;
+     height: 36px;
+     background-image: url(./image/user_icon.png);
+     background-repeat: no-repeat;
+     border:1px solod #DDDDDD;
+}
+.login .login-text input::placeholder{
+    color: #999C9F;
+    font-size: 14px;
+}
+.login .login-pass{
+    width: 300px;
+
+}
+.login .login-pass input{
+    padding-left: 50px;
+    width: 240px;
+     height: 36px;
+     background-image: url(./image/pass_icon.png);
+     background-repeat: no-repeat;
+     border:1px solod #DDDDDD;
+     margin-top: -15px;
+}
+.login  button{
+    text-align: center;
+    width: 296px;
+    height: 40px;
+    background-color: #FF4400;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -10px;
+    border: none;
+    border-radius: 3px;
+}
+.login  button:hover{
+    cursor: pointer;
+    background-color: #F52B00;
+}
+.login .login-foot{
+    margin-top: 25px;
+}
+.login .login-foot a:hover{
+    color: #FF4400;
+}
+.login .login-footer a{
+    float: right;
+    margin-left: 10px;
+}
+.login .login-footer a:hover{
+    color: #F52B00;
+}
+.footer{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.footer .footer-top{
+    width: 1200px;
+    height: 44px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 44px;
+    margin: 0 auto;
+}
+.footer .footer-top a{
+    margin-left: 5px;
+    
+}
+.footer .footer-top a:hover{
+    color: #ff4400;
+}
+.footer .footer-top a:not(:first-child)::before{
+    content: "|";
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.footer-bodyer{
+    margin-top: 10px;
+    width: 1000px;
+}
+.footer-bodyer a{
+    margin-left: 5px;
+}
+.footer-bodyer p{
+    opacity: .5;
+}
